@@ -1,0 +1,404 @@
+{
+  "version": 2,
+  "data_sources": {
+    "tables": [
+      {
+        "identifier": "labuser18456042_1794852728.genie_course_bakehouse.media_customer_reviews_gold",
+        "column_configs": [
+          {
+            "column_name": "flag",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "new_id",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "ref",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "review",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "review_date",
+            "enable_format_assistance": true
+          }
+        ]
+      },
+      {
+        "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_customers_gold",
+        "column_configs": [
+          {
+            "column_name": "address",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "city",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "continent",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "country",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "customerID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "email_address",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "first_name",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "gender",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "last_name",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "phone_number",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "postal_zip_code",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "state",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          }
+        ]
+      },
+      {
+        "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold",
+        "column_configs": [
+          {
+            "column_name": "city",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "country",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "district",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "latitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "longitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "name",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "size",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "supplierID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "zipcode",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          }
+        ]
+      },
+      {
+        "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_suppliers_gold",
+        "column_configs": [
+          {
+            "column_name": "approved",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "city",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "continent",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "district",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "ingredient",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "latitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "longitude",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "name",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "size",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "supplierID",
+            "enable_format_assistance": true
+          }
+        ]
+      },
+      {
+        "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_transactions_gold",
+        "column_configs": [
+          {
+            "column_name": "cardNumber",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "customerID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "dateTime",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "franchiseID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "paymentMethod",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "product",
+            "enable_format_assistance": true,
+            "enable_entity_matching": true
+          },
+          {
+            "column_name": "quantity",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "totalPrice",
+            "synonyms": [
+              "revenue",
+              "sales",
+              "total sales",
+              "total revenue",
+              "income"
+            ],
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "transactionID",
+            "enable_format_assistance": true
+          },
+          {
+            "column_name": "unitPrice",
+            "enable_format_assistance": true
+          }
+        ]
+      }
+    ]
+  },
+  "instructions": {
+    "text_instructions": [
+      {
+        "id": "01f1e215c2c112c093869c8c8cfc73e0",
+        "content": [
+          "\n",
+          "- Formatting\n",
+          "    - Format all results using US dollars  \n",
+          "    - Round all currency values to 2 decimal places.\n",
+          "\n",
+          "- Business Rules\n",
+          "    - `totalPrice` represents both revenue and sales volume  \n",
+          "    - Always include franchise name with franchise ID  \n",
+          "    - Use `totalPrice` for total sales and performance comparisons  \n",
+          "\n",
+          "- Fiscal Calendar\n",
+          "    - Fiscal year starts in February  \n",
+          "    - Q1: February, March, April  \n",
+          "    - Q2: May, June, July  \n",
+          "    - Q3: August, September, October  \n",
+          "    - Q4: November, December, January  \n"
+        ]
+      }
+    ],
+    "example_question_sqls": [
+      {
+        "id": "01f1e2156bb61b92a6cd0a67d34ebcf1",
+        "question": [
+          "Who are our best customers?"
+        ],
+        "sql": [
+          "SELECT\n",
+          "  c.customerID,\n",
+          "  c.first_name,\n",
+          "  c.last_name,\n",
+          "  SUM(t.totalPrice) AS total_spend\n",
+          "FROM\n",
+          "  labuser18456042_1794852728.genie_course_bakehouse.sales_transactions_gold AS t\n",
+          "    JOIN labuser18456042_1794852728.genie_course_bakehouse.sales_customers_gold AS c\n",
+          "      ON t.customerID = c.customerID\n",
+          "GROUP BY\n",
+          "  c.customerID,\n",
+          "  c.first_name,\n",
+          "  c.last_name\n",
+          "ORDER BY\n",
+          "  total_spend DESC\n",
+          "LIMIT 10"
+        ],
+        "usage_guidance": [
+          "When users ask for the best customers make sure you aggregate by total price and return the top 10 customers."
+        ]
+      }
+    ],
+    "join_specs": [
+      {
+        "id": "01f1e2084b0f1a32bff93bf1f051bcbb",
+        "left": {
+          "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold",
+          "alias": "f"
+        },
+        "right": {
+          "identifier": "labuser18456042_1794852728.genie_course_bakehouse.sales_suppliers_gold",
+          "alias": "s"
+        },
+        "sql": [
+          "`f`.`supplierID` = `s`.`supplierID`",
+          "--rt=FROM_RELATIONSHIP_TYPE_MANY_TO_ONE--"
+        ],
+        "instruction": [
+          "Many rows in the sales_franchises_gold table have a supplierID with no match in the sales_suppliers_gold table. This is important information and make sure to display the orphaned rows."
+        ]
+      }
+    ],
+    "sql_snippets": {
+      "expressions": [
+        {
+          "id": "01f1e21523d11aa0b0286c6e39f55176",
+          "sql": [
+            "CASE\n",
+            "    WHEN labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold.country IN ('Japan', 'Australia') \n",
+            "      THEN 'APJ'\n",
+            "    WHEN labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold.country IN ('US', 'Canada') \n",
+            "      THEN 'AMER'\n",
+            "    WHEN labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold.country IN ('Netherlands', 'France', 'Germany', 'Italy', 'Sweden')\n",
+            "      THEN 'EMEA' \n",
+            "    ELSE 'Other'\n",
+            "END"
+          ],
+          "display_name": "region",
+          "instruction": [
+            "When user asks for metrics by 'region' where region is defined by business mapping of country to APJ, AMER, EMEA, or Other; SCOPE_TABLES: Use with sales_franchises_gold and sales_transactions_gold, grouping or reporting at the franchise-location level; RISK_IF_MISUSED: Do not use unless the user explicitly refers to regions per this mapping (e.g., could mislead if a different regional breakdown is implied). This is a company-specific mapping."
+          ],
+          "synonyms": [
+            "franchise region",
+            "region sales"
+          ]
+        }
+      ]
+    }
+  },
+  "benchmarks": {
+    "questions": [
+      {
+        "id": "01f1e20dda7d14e48ee6e8e812c875b3",
+        "question": [
+          "What are total sales by region?"
+        ],
+        "answer": [
+          {
+            "format": "SQL",
+            "content": [
+              "SELECT\n",
+              "    CASE\n",
+              "        WHEN f.country IN ('Japan', 'Australia') THEN 'APJ'\n",
+              "        WHEN f.country IN ('US', 'Canada') THEN 'AMER'\n",
+              "        WHEN f.country IN ('Netherlands', 'France', 'Germany', 'Italy', 'Sweden') THEN 'EMEA'\n",
+              "        ELSE 'Other'\n",
+              "    END AS region,\n",
+              "    SUM(t.totalPrice) AS total_sales\n",
+              "FROM labuser18456042_1794852728.genie_course_bakehouse.sales_franchises_gold AS f\n",
+              "JOIN labuser18456042_1794852728.genie_course_bakehouse.sales_transactions_gold AS t\n",
+              "    ON f.franchiseID = t.franchiseID\n",
+              "GROUP BY region\n",
+              "ORDER BY total_sales DESC"
+            ]
+          }
+        ],
+        "evaluation_note": [
+          "Map the country to appropriate region like APJ, AMER, EMEA "
+        ]
+      },
+      {
+        "id": "01f1e20cd660162bb8456f8cf06591fe",
+        "question": [
+          "How many customers do we have?"
+        ],
+        "answer": [
+          {
+            "format": "SQL",
+            "content": [
+              "SELECT\n",
+              "  COUNT(DISTINCT `customerID`) AS `customer_count`\n",
+              "FROM\n",
+              "  `labuser18456042_1794852728`.`genie_course_bakehouse`.`sales_customers_gold`"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

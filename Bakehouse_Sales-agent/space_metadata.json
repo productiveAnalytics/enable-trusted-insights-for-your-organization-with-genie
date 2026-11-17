@@ -1,0 +1,10 @@
+{
+  "space_id": "01f1e205aec91588a33bf2e242c332a6",
+  "title": "lalitstar - Bakehouse Sales",
+  "warehouse_id": "f151794d102b8e21",
+  "parent_path": "/Users/labuser18456042_1794852728@vocareum.com",
+  "etag": "5908f05c8256b59f9a9dde13cb8940d2aa11acfb5d835c7823c531553e05d8e1",
+  "create_time": "2026-11-16T21:35:46.034Z",
+  "update_time": "2026-11-16T23:30:56.577Z",
+  "description": "This Agent helps analyze bakehouse sales, customer behavior, franchise performance, supplier coverage, and customer review trends.\n\n- **Capabilities:**\n  - Answer questions about revenue, transactions, units sold, average order value, and product sales trends over time.\n  - Compare franchise performance by location, size, country, district, and supplier relationship.\n  - Explore customer patterns by geography and demographics such as city, state, country, continent, and gender.\n  - Identify top customers, popular products, payment method usage, and repeat purchasing activity.\n  - Review customer feedback trends using review text, review dates, and flags to spot sentiment or issue patterns.\n  - Connect transactions with customers and franchises to understand who buys what, where, and when.\n\n- **Limitations:**\n  - Cannot analyze profitability, costs, margins, or inventory because expense and stock data are not included.\n  - Cannot measure marketing performance, campaign impact, or customer acquisition sources.\n  - Cannot provide detailed product catalog analysis beyond product names and sales activity.\n  - Cannot reliably assess customer sentiment scores unless they are derived from the review text and flags.\n  - Cannot confirm full supplier quality or operational performance beyond supplier attributes and approval status."
+}
